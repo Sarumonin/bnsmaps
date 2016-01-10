@@ -7,10 +7,38 @@
 	<title>Codex Blade&Soul Tools - Maps</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-	<link href="http://files.enjin.com/692771/Blade-and-Soul/Map/css/maps.css" rel="stylesheet">
+	<link href="css/maps.css" rel="stylesheet">
 </head>
-
-		
+<body class="main-wrapper maps">
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="http://adrienseon.github.io/bns/maps/maps.html" class="navbar-brand">
+					<img alt="Brand" src="../img/codex-logo.png">
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<p class="navbar-text">Codex Blade&Souls Tools</p>
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="http://adrienseon.github.io/bns/maps/maps.html">Maps</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Skills icons<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="http://adrienseon.github.io/bns/skills/32.html">32px</a></li>
+							<li><a href="http://adrienseon.github.io/bns/skills/64.html">64px</a></li>
+						</ul>
+					</li>
+					<li><a href="http://adrienseon.github.io/bns/char/char.html">Character search</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	<div id="map-wrapper-outer" class="map-wrapper-outer">
 		<div id="loading" class="loading">
 			<div id="lyn-anim" class="lyn-anim"></div>
@@ -40,12 +68,12 @@
 		<sidebar id="map-options" class="map-options">
 			<ul>
 				<li>
-					<img src="http://files.enjin.com/692771/Blade-and-Soul/Map/img/icons/quartz.png" alt="quartz icon">
+					<img src="img/icons/quartz.png" alt="quartz icon">
 					<input id="quartz-checkbox" type="checkbox" data-id="quartz">
 					<label for="quartz-checkbox">Quartz :</label>
 				</li>
 				<li>
-					<img src="http://files.enjin.com/692771/Blade-and-Soul/Map/img/icons/well.png" alt="quartz icon">
+					<img src="img/icons/well.png" alt="quartz icon">
 					<input id="wells-checkbox" type="checkbox" data-id="wells">
 					<label for="wells-checkbox">Wells :</label>
 				</li>
@@ -54,7 +82,7 @@
 		<section id="map-wrapper" class="map-wrapper">
 			<img src="" id="map-img" class="map-img">
 			<div id="map-component-wrapper" class="map-component-wrapper">
-				<p class="copyrights">Brought to you by <a href="http://EternaGaming.com/">Eterna Gaming™</a></p>
+				<p class="copyrights">Brought to you by <a href="http://codex-network.com/">Codex</a></p>
 			</div>
 		</section>
 	</div>
@@ -84,6 +112,6 @@
 	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="https://cdn.rawgit.com/jeremypetrequin/jsMovieclip/master/jsmovieclip-1.min.js"></script>
-	<script src="http://files.enjin.com/692771/Blade-and-Soul/Map/js/maps.js"></script>
+	<script src="js/maps.js"></script>
 </body>
 </html>
